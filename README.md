@@ -1,4 +1,7 @@
-# lamejs
+# km-lamejs
+
+*This is a fork of lamejs.* I needed the most recent changes to lamejs, but there were no new releases, so I am releasing my own. I am fine with people opening pull requests here, but I do not plan on managing this full time. If there is someone who would like to manage the repo, contact me and we can do that.
+
 Fast mp3 encoder written in JavaScript.
 On my machine it works 20x faster than realtime (it will encode 132 second long sample in 6.5 seconds) both on node and chrome.
 lamejs is a rewrite of jump3r-code which is a rewrite of libmp3lame.
@@ -8,11 +11,11 @@ lamejs is a rewrite of jump3r-code which is a rewrite of libmp3lame.
 To install via Bower or npm, simply do the following:
 
 ```bash
-$ bower install lamejs --save
+$ bower install km-lamejs --save
 ```
 
 ```bash
-$ npm install lamejs
+$ npm install km-lamejs
 ```
 
 # Quick Start
@@ -43,13 +46,13 @@ console.debug(mp3Data);
 To use lamejs in Node.js build, you can install it from `npm`:
 
 ```
-npm install lamejs
+npm install km-lamejs
 ```
 
 Then use it:
 
 ```
-var lamejs = require("lamejs");
+var lamejs = require("km-lamejs");
 ```
 
 # Real Example
